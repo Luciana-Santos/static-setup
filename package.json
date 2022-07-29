@@ -1,6 +1,6 @@
 {
   "name": "static-setup",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML and JavaScript Webpack compiler.",
   "main": "dist/index.html",
   "author": "LucianaSantos",
