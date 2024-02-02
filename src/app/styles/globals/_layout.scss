@@ -1,6 +1,9 @@
 @use '../utils' as *;
 
+$desired-width: 768; // Largura desejada
+$inline-gap: 32; // Remove 32 pixels das laterais para evitar que o layout fique muito próximo as bordas da tela
+
 .container {
-  width: min(100% - 2rem, 55rem);
+  width: min(100% - $inline-gap, rem($desired-width));
   margin-inline: auto;
 }
